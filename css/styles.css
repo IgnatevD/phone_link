@@ -2,17 +2,24 @@
 }
 body {
   background-color: yellow;
+  margin: 0;
+  padding: 0;
 }
-.main {
-  width: 1080px;
+/* .main {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .section {
   width: 100%;
   height: 1920px;
+
   background-image: url("../img/fon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list-style {
@@ -32,8 +39,8 @@ body {
 }
 
 .link-div {
-  width: 50%;
-  height: 50px;
+  width: 70%;
+  height: 50%;
   background-color: yellow;
   margin-left: auto;
   margin-right: auto;
@@ -46,7 +53,6 @@ body {
   display: inline-block;
   width: 100%;
   height: 100%;
-  padding-top: 10px;
 
   font-size: 46px;
   text-decoration: none;
