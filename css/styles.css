@@ -16,7 +16,6 @@ body {
   height: 1920px;
   background-image: url("../img/fon.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center center;
 }
 
@@ -31,9 +30,8 @@ body {
 .titel {
   text-align: center;
   color: aliceblue;
-  margin-bottom: 400px;
-  text-emphasis: none;
   opacity: 0;
+  margin-bottom: 15%;
 }
 
 .link-div {
@@ -42,7 +40,7 @@ body {
   background-color: yellow;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 3%;
   border-radius: 10px;
   text-align: center;
 }
