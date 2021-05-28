@@ -1,70 +1,53 @@
-:root {
-}
 body {
   box-sizing: border-box;
-  background-color: yellow;
   margin: 0;
   padding: 0;
-}
-
-/* .main {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-.section {
-  width: 100%;
-  height: 1920px;
-  background-image: url("../img/fon.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.list-style {
-  padding-top: 50px;
-
-  list-style: none;
-  margin: 0%;
-  padding: 0%;
-}
-
-.titel {
-  text-align: center;
-  color: aliceblue;
-  opacity: 0;
-  margin-bottom: 15%;
-}
-
-.link-div {
-  width: 30%;
-
-  background-color: yellow;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.link-div a {
-  display: inline-block;
-  width: inherit;
-  height: inherit;
-  padding-top: 15px;
-  padding-bottom: 15px;
-
-  font-size: 46px;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.link-div:hover,
-.link-div:focus {
   background-color: blue;
 }
 
-.link-div:hover a {
-  color: white;
+.titel {
+  font-size: 1;
+  opacity: 0;
+}
+
+.section {
+  width: 80%;
+  height: 1640px;
+  margin: 0 auto;
+
+  background-image: url(../img/fon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.list-style {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35%;
+}
+
+.button {
+  display: block;
+  width: 60%;
+  padding: 1% 3%;
+  background-color: blue;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: brown;
+  color: darkblue;
 }
